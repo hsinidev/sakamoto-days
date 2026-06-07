@@ -1,0 +1,25 @@
+{
+  "name": "sakamoto-days-portal",
+  "version": "1.0.0",
+  "description": "Premium Sakamoto Days Manga Portal",
+  "main": "index.js",
+  "scripts": {
+    "build:data": "node scripts/generate_data.js",
+    "build:seo": "node scripts/generate_seo_articles.js",
+    "build:index": "node scripts/generate_index.js",
+    "build:chapters": "node scripts/generate_chapters.js",
+    "build:legal": "node scripts/generate_legal.js",
+    "build:favicons": "node scripts/generate_favicons.js",
+    "build:deployment": "node scripts/generate_deployment.js",
+    "optimize": "node scripts/optimize_images.js",
+    "build": "npm run build:data && npm run build:seo && npm run build:favicons && npm run build:index && npm run build:chapters && npm run build:legal && npm run build:deployment"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "sharp": "^0.33.2"
+  }
+}

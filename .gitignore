@@ -1,0 +1,18 @@
+# Gitignore for Manga Portal Project
+node_modules/
+.next/
+out/
+dist/
+build/
+manga/
+.env*
+ollama_api.json
+*.log
+
+# Ignore archives and env
+*.zip
+*.rar
+*.7z
+*.tar.gz
+.env*
+ollama_api.json

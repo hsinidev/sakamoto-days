@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Sakamoto Days Mission 177 Online | Chapter 177</title>
+    <meta name="description" content="Read Sakamoto Days Chapter 177: Chapter 177 in high quality. The legendary hitman Taro Sakamoto returns.">
+    <link rel="stylesheet" href="../src/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <style>
+        .reader-nav-compact {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: rgba(10, 10, 10, 0.85);
+            backdrop-filter: blur(20px);
+            padding: 0.75rem 1.5rem;
+            border-radius: 4rem;
+            border: 1px solid var(--glass-border);
+            z-index: 1000;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        
+        .chapter-dropdown {
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .dropdown-trigger {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .dropdown-content {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-1rem);
+            width: 280px;
+            max-height: 400px;
+            overflow-y: auto;
+            background: var(--surface-2);
+            border: 1px solid var(--glass-border);
+            border-radius: 1.5rem;
+            display: none;
+            padding: 1rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+        
+        .dropdown-content.active { display: block; }
+        
+        .dropdown-option {
+            display: block;
+            padding: 1rem;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 1rem;
+            transition: 0.2s;
+            margin-bottom: 0.5rem;
+        }
+        
+        .dropdown-option:hover { background: rgba(255, 204, 0, 0.1); }
+        .dropdown-option.active { border: 1px solid var(--primary); background: rgba(255, 204, 0, 0.05); }
+        
+        .opt-id { font-family: var(--font-mono); font-size: 0.6rem; color: var(--primary); margin-bottom: 0.2rem; }
+        .opt-title { font-weight: 700; font-size: 0.9rem; }
+        
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--primary);
+            z-index: 2000;
+            width: 0%;
+            transition: width 0.1s;
+        }
+        
+        .reader-chapter-end {
+            padding: 10rem 0;
+            text-align: center;
+            background: linear-gradient(to bottom, transparent, var(--surface-1));
+        }
+
+        .status-badge {
+            background: var(--primary);
+            color: #000;
+            padding: 0.5rem 1.5rem;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            font-weight: 800;
+            border-radius: 2rem;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="grain-overlay"></div>
+    <div id="custom-cursor"></div>
+    <div id="custom-cursor-outline"></div>
+
+    <nav class="nav" id="mainNav">
+        <div class="container nav-inner">
+            <a href="../index.html" class="logo magnetic">SAKAMOTO</a>
+            <div class="nav-links">
+                <a href="../index.html" class="nav-link">ARCHIVE</a>
+                <a href="../index.html#chapterGrid" class="nav-link magnetic">MISSIONS</a>
+            </div>
+        </div>
+    </nav>
+
+    <header style="padding: 10rem 0 5rem; text-align: center;">
+        <div class="container">
+            <div class="mono" style="font-size: 0.7rem; color: var(--primary); letter-spacing: 0.5em; margin-bottom: 1rem;">MISSION DATA INGESTED</div>
+            <h1 class="hero-title" style="font-size: clamp(3rem, 10vw, 6rem);"><span class="letter">C</span><span class="letter">H</span><span class="letter">A</span><span class="letter">P</span><span class="letter">T</span><span class="letter">E</span><span class="letter">R</span><br><span class="letter">1</span><span class="letter">7</span><span class="letter">7</span></h1>
+            <div class="mono" style="font-size: 0.6rem; color: var(--text-dim); margin-top: 2rem;">STATUS: EXECUTION IN PROGRESS</div>
+        </div>
+    </header>
+
+    <main class="reader-container">
+        <img src="../manga/Sakamoto Days/Chapter-177/01.jpg" class="reader-image" alt="Chapter 177 - Page 1" loading="eager"><img src="../manga/Sakamoto Days/Chapter-177/01.webp" class="reader-image" alt="Chapter 177 - Page 2" loading="eager"><img src="../manga/Sakamoto Days/Chapter-177/02.jpg" class="reader-image" alt="Chapter 177 - Page 3" loading="eager"><img src="../manga/Sakamoto Days/Chapter-177/02.webp" class="reader-image" alt="Chapter 177 - Page 4" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/03.jpg" class="reader-image" alt="Chapter 177 - Page 5" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/03.webp" class="reader-image" alt="Chapter 177 - Page 6" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/04.jpg" class="reader-image" alt="Chapter 177 - Page 7" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/04.webp" class="reader-image" alt="Chapter 177 - Page 8" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/05.jpg" class="reader-image" alt="Chapter 177 - Page 9" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/05.webp" class="reader-image" alt="Chapter 177 - Page 10" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/06.jpg" class="reader-image" alt="Chapter 177 - Page 11" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/06.webp" class="reader-image" alt="Chapter 177 - Page 12" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/07.jpg" class="reader-image" alt="Chapter 177 - Page 13" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/07.webp" class="reader-image" alt="Chapter 177 - Page 14" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/08.jpg" class="reader-image" alt="Chapter 177 - Page 15" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/08.webp" class="reader-image" alt="Chapter 177 - Page 16" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/09.jpg" class="reader-image" alt="Chapter 177 - Page 17" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/09.webp" class="reader-image" alt="Chapter 177 - Page 18" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/10.jpg" class="reader-image" alt="Chapter 177 - Page 19" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/10.webp" class="reader-image" alt="Chapter 177 - Page 20" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/11.jpg" class="reader-image" alt="Chapter 177 - Page 21" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/11.webp" class="reader-image" alt="Chapter 177 - Page 22" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/12.jpg" class="reader-image" alt="Chapter 177 - Page 23" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/12.webp" class="reader-image" alt="Chapter 177 - Page 24" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/13.jpg" class="reader-image" alt="Chapter 177 - Page 25" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/13.webp" class="reader-image" alt="Chapter 177 - Page 26" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/14.jpg" class="reader-image" alt="Chapter 177 - Page 27" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/14.webp" class="reader-image" alt="Chapter 177 - Page 28" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/15.jpg" class="reader-image" alt="Chapter 177 - Page 29" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/15.webp" class="reader-image" alt="Chapter 177 - Page 30" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/16.jpg" class="reader-image" alt="Chapter 177 - Page 31" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/16.webp" class="reader-image" alt="Chapter 177 - Page 32" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/17.jpg" class="reader-image" alt="Chapter 177 - Page 33" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/17.webp" class="reader-image" alt="Chapter 177 - Page 34" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/18.jpg" class="reader-image" alt="Chapter 177 - Page 35" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/18.webp" class="reader-image" alt="Chapter 177 - Page 36" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/19.jpg" class="reader-image" alt="Chapter 177 - Page 37" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/19.webp" class="reader-image" alt="Chapter 177 - Page 38" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/20.jpg" class="reader-image" alt="Chapter 177 - Page 39" loading="lazy"><img src="../manga/Sakamoto Days/Chapter-177/20.webp" class="reader-image" alt="Chapter 177 - Page 40" loading="lazy">
+    </main>
+
+    <section class="reader-chapter-end">
+        <div class="container">
+            <div class="status-badge">MISSION COMPLETED</div>
+            <h2 class="section-title" style="margin-bottom: 3rem;">Ready for Next?</h2>
+            
+            <div style="display: flex; justify-content: center; gap: 2rem; align-items: center;">
+                <a href="Chapter-178.html" class="nav-link">Previous</a>
+                <a href="../index.html" class="nav-btn" style="padding: 1rem 3rem;">Return Home</a>
+                <a href="Chapter-176.html" class="nav-btn" style="background: var(--primary); color: #000; padding: 1rem 3rem;">Next Mission</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="../about.html" class="footer-link magnetic">ABOUT</a>
+                <a href="../contact.html" class="footer-link magnetic">CONTACT</a>
+                <a href="../privacy.html" class="footer-link magnetic">PRIVACY</a>
+                <a href="../dmca.html" class="footer-link magnetic">DMCA</a>
+                <a href="../terms.html" class="footer-link magnetic">TERMS</a>
+                <a href="../cookies.html" class="footer-link magnetic">COOKIES</a>
+                <a href="../disclaimer.html" class="footer-link magnetic">DISCLAIMER</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-brand bangers">SAKAMOTO DAYS</div>
+                <p class="footer-copy mono">&copy; 2024 SAKAMOTO DAYS PORTAL. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Nav -->
+    <div class="reader-nav-compact">
+        <a href="Chapter-178.html" class="nav-btn" style="padding: 0.5rem 1rem;">←</a>
+        
+        <div class="chapter-dropdown" id="chDropdown">
+            <div class="dropdown-trigger">
+                <span>MISSION 177</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"></path></svg>
+            </div>
+            <div class="dropdown-content" id="chDropdownContent">
+                
+            <a href="Chapter-253.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 253</div>
+                <div class="opt-title">Chapter 253</div>
+            </a>
+            <a href="Chapter-252.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 252</div>
+                <div class="opt-title">Chapter 252</div>
+            </a>
+            <a href="Chapter-251.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 251</div>
+                <div class="opt-title">Chapter 251</div>
+            </a>
+            <a href="Chapter-250.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 250</div>
+                <div class="opt-title">Chapter 250</div>
+            </a>
+            <a href="Chapter-249.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 249</div>
+                <div class="opt-title">Chapter 249</div>
+            </a>
+            <a href="Chapter-248.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 248</div>
+                <div class="opt-title">Chapter 248</div>
+            </a>
+            <a href="Chapter-247.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 247</div>
+                <div class="opt-title">Chapter 247</div>
+            </a>
+            <a href="Chapter-246.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 246</div>
+                <div class="opt-title">Chapter 246</div>
+            </a>
+            <a href="Chapter-245.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 245</div>
+                <div class="opt-title">Chapter 245</div>
+            </a>
+            <a href="Chapter-244.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 244</div>
+                <div class="opt-title">Chapter 244</div>
+            </a>
+            <a href="Chapter-243.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 243</div>
+                <div class="opt-title">Chapter 243</div>
+            </a>
+            <a href="Chapter-242.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 242</div>
+                <div class="opt-title">Chapter 242</div>
+            </a>
+            <a href="Chapter-241.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 241</div>
+                <div class="opt-title">Chapter 241</div>
+            </a>
+            <a href="Chapter-240.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 240</div>
+                <div class="opt-title">Chapter 240</div>
+            </a>
+            <a href="Chapter-239.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 239</div>
+                <div class="opt-title">Chapter 239</div>
+            </a>
+            <a href="Chapter-238.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 238</div>
+                <div class="opt-title">Chapter 238</div>
+            </a>
+            <a href="Chapter-237.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 237</div>
+                <div class="opt-title">Chapter 237</div>
+            </a>
+            <a href="Chapter-236.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 236</div>
+                <div class="opt-title">Chapter 236</div>
+            </a>
+            <a href="Chapter-235.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 235</div>
+                <div class="opt-title">Chapter 235</div>
+            </a>
+            <a href="Chapter-234.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 234</div>
+                <div class="opt-title">Chapter 234</div>
+            </a>
+            <a href="Chapter-233.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 233</div>
+                <div class="opt-title">Chapter 233</div>
+            </a>
+            <a href="Chapter-232.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 232</div>
+                <div class="opt-title">Chapter 232</div>
+            </a>
+            <a href="Chapter-231.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 231</div>
+                <div class="opt-title">Chapter 231</div>
+            </a>
+            <a href="Chapter-230.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 230</div>
+                <div class="opt-title">Chapter 230</div>
+            </a>
+            <a href="Chapter-229.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 229</div>
+                <div class="opt-title">Chapter 229</div>
+            </a>
+            <a href="Chapter-228.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 228</div>
+                <div class="opt-title">Chapter 228</div>
+            </a>
+            <a href="Chapter-227.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 227</div>
+                <div class="opt-title">Chapter 227</div>
+            </a>
+            <a href="Chapter-226.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 226</div>
+                <div class="opt-title">Chapter 226</div>
+            </a>
+            <a href="Chapter-225.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 225</div>
+                <div class="opt-title">Chapter 225</div>
+            </a>
+            <a href="Chapter-224.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 224</div>
+                <div class="opt-title">Chapter 224</div>
+            </a>
+            <a href="Chapter-223.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 223</div>
+                <div class="opt-title">Chapter 223</div>
+            </a>
+            <a href="Chapter-222.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 222</div>
+                <div class="opt-title">Chapter 222</div>
+            </a>
+            <a href="Chapter-221.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 221</div>
+                <div class="opt-title">Chapter 221</div>
+            </a>
+            <a href="Chapter-220.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 220</div>
+                <div class="opt-title">Chapter 220</div>
+            </a>
+            <a href="Chapter-219.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 219</div>
+                <div class="opt-title">Chapter 219</div>
+            </a>
+            <a href="Chapter-218.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 218</div>
+                <div class="opt-title">Chapter 218</div>
+            </a>
+            <a href="Chapter-217.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 217</div>
+                <div class="opt-title">Chapter 217</div>
+            </a>
+            <a href="Chapter-216.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 216</div>
+                <div class="opt-title">Chapter 216</div>
+            </a>
+            <a href="Chapter-215.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 215</div>
+                <div class="opt-title">Chapter 215</div>
+            </a>
+            <a href="Chapter-214.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 214</div>
+                <div class="opt-title">Chapter 214</div>
+            </a>
+            <a href="Chapter-213.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 213</div>
+                <div class="opt-title">Chapter 213</div>
+            </a>
+            <a href="Chapter-212.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 212</div>
+                <div class="opt-title">Chapter 212</div>
+            </a>
+            <a href="Chapter-211.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 211</div>
+                <div class="opt-title">Chapter 211</div>
+            </a>
+            <a href="Chapter-210.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 210</div>
+                <div class="opt-title">Chapter 210</div>
+            </a>
+            <a href="Chapter-209.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 209</div>
+                <div class="opt-title">Chapter 209</div>
+            </a>
+            <a href="Chapter-208.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 208</div>
+                <div class="opt-title">Chapter 208</div>
+            </a>
+            <a href="Chapter-207.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 207</div>
+                <div class="opt-title">Chapter 207</div>
+            </a>
+            <a href="Chapter-206.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 206</div>
+                <div class="opt-title">Chapter 206</div>
+            </a>
+            <a href="Chapter-205.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 205</div>
+                <div class="opt-title">Chapter 205</div>
+            </a>
+            <a href="Chapter-204.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 204</div>
+                <div class="opt-title">Chapter 204</div>
+            </a>
+            <a href="Chapter-203.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 203</div>
+                <div class="opt-title">Chapter 203</div>
+            </a>
+            <a href="Chapter-202.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 202</div>
+                <div class="opt-title">Chapter 202</div>
+            </a>
+            <a href="Chapter-201.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 201</div>
+                <div class="opt-title">Chapter 201</div>
+            </a>
+            <a href="Chapter-200.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 200</div>
+                <div class="opt-title">Chapter 200</div>
+            </a>
+            <a href="Chapter-199.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 199</div>
+                <div class="opt-title">Chapter 199</div>
+            </a>
+            <a href="Chapter-198.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 198</div>
+                <div class="opt-title">Chapter 198</div>
+            </a>
+            <a href="Chapter-197.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 197</div>
+                <div class="opt-title">Chapter 197</div>
+            </a>
+            <a href="Chapter-196.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 196</div>
+                <div class="opt-title">Chapter 196</div>
+            </a>
+            <a href="Chapter-195.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 195</div>
+                <div class="opt-title">Chapter 195</div>
+            </a>
+            <a href="Chapter-194.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 194</div>
+                <div class="opt-title">Chapter 194</div>
+            </a>
+            <a href="Chapter-193.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 193</div>
+                <div class="opt-title">Chapter 193</div>
+            </a>
+            <a href="Chapter-192.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 192</div>
+                <div class="opt-title">Chapter 192</div>
+            </a>
+            <a href="Chapter-191.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 191</div>
+                <div class="opt-title">Chapter 191</div>
+            </a>
+            <a href="Chapter-190.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 190</div>
+                <div class="opt-title">Chapter 190</div>
+            </a>
+            <a href="Chapter-189.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 189</div>
+                <div class="opt-title">Chapter 189</div>
+            </a>
+            <a href="Chapter-188.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 188</div>
+                <div class="opt-title">Chapter 188</div>
+            </a>
+            <a href="Chapter-187.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 187</div>
+                <div class="opt-title">Chapter 187</div>
+            </a>
+            <a href="Chapter-186.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 186</div>
+                <div class="opt-title">Chapter 186</div>
+            </a>
+            <a href="Chapter-185.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 185</div>
+                <div class="opt-title">Chapter 185</div>
+            </a>
+            <a href="Chapter-184.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 184</div>
+                <div class="opt-title">Chapter 184</div>
+            </a>
+            <a href="Chapter-183.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 183</div>
+                <div class="opt-title">Chapter 183</div>
+            </a>
+            <a href="Chapter-182.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 182</div>
+                <div class="opt-title">Chapter 182</div>
+            </a>
+            <a href="Chapter-181.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 181</div>
+                <div class="opt-title">Chapter 181</div>
+            </a>
+            <a href="Chapter-180.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 180</div>
+                <div class="opt-title">Chapter 180</div>
+            </a>
+            <a href="Chapter-179.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 179</div>
+                <div class="opt-title">Chapter 179</div>
+            </a>
+            <a href="Chapter-178.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 178</div>
+                <div class="opt-title">Chapter 178</div>
+            </a>
+            <a href="Chapter-177.html" class="dropdown-option active">
+                <div class="opt-id">MISSION 177</div>
+                <div class="opt-title">Chapter 177</div>
+            </a>
+            <a href="Chapter-176.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 176</div>
+                <div class="opt-title">Chapter 176</div>
+            </a>
+            <a href="Chapter-175.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 175</div>
+                <div class="opt-title">Chapter 175</div>
+            </a>
+            <a href="Chapter-174.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 174</div>
+                <div class="opt-title">Chapter 174</div>
+            </a>
+            <a href="Chapter-173.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 173</div>
+                <div class="opt-title">Chapter 173</div>
+            </a>
+            <a href="Chapter-172.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 172</div>
+                <div class="opt-title">Chapter 172</div>
+            </a>
+            <a href="Chapter-171.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 171</div>
+                <div class="opt-title">Chapter 171</div>
+            </a>
+            <a href="Chapter-170.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 170</div>
+                <div class="opt-title">Chapter 170</div>
+            </a>
+            <a href="Chapter-169.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 169</div>
+                <div class="opt-title">Chapter 169</div>
+            </a>
+            <a href="Chapter-168.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 168</div>
+                <div class="opt-title">Chapter 168</div>
+            </a>
+            <a href="Chapter-167.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 167</div>
+                <div class="opt-title">Chapter 167</div>
+            </a>
+            <a href="Chapter-166.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 166</div>
+                <div class="opt-title">Chapter 166</div>
+            </a>
+            <a href="Chapter-165.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 165</div>
+                <div class="opt-title">Chapter 165</div>
+            </a>
+            <a href="Chapter-164.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 164</div>
+                <div class="opt-title">Chapter 164</div>
+            </a>
+            <a href="Chapter-163.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 163</div>
+                <div class="opt-title">Chapter 163</div>
+            </a>
+            <a href="Chapter-162.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 162</div>
+                <div class="opt-title">Chapter 162</div>
+            </a>
+            <a href="Chapter-161.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 161</div>
+                <div class="opt-title">Chapter 161</div>
+            </a>
+            <a href="Chapter-160.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 160</div>
+                <div class="opt-title">Chapter 160</div>
+            </a>
+            <a href="Chapter-159.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 159</div>
+                <div class="opt-title">Chapter 159</div>
+            </a>
+            <a href="Chapter-158.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 158</div>
+                <div class="opt-title">Chapter 158</div>
+            </a>
+            <a href="Chapter-157.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 157</div>
+                <div class="opt-title">Chapter 157</div>
+            </a>
+            <a href="Chapter-156.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 156</div>
+                <div class="opt-title">Chapter 156</div>
+            </a>
+            <a href="Chapter-155.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 155</div>
+                <div class="opt-title">Chapter 155</div>
+            </a>
+            <a href="Chapter-154.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 154</div>
+                <div class="opt-title">Chapter 154</div>
+            </a>
+            <a href="Chapter-153.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 153</div>
+                <div class="opt-title">Chapter 153</div>
+            </a>
+            <a href="Chapter-152.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 152</div>
+                <div class="opt-title">Chapter 152</div>
+            </a>
+            <a href="Chapter-151.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 151</div>
+                <div class="opt-title">Chapter 151</div>
+            </a>
+            <a href="Chapter-150.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 150</div>
+                <div class="opt-title">Chapter 150</div>
+            </a>
+            <a href="Chapter-149.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 149</div>
+                <div class="opt-title">Chapter 149</div>
+            </a>
+            <a href="Chapter-148.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 148</div>
+                <div class="opt-title">Chapter 148</div>
+            </a>
+            <a href="Chapter-147.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 147</div>
+                <div class="opt-title">Chapter 147</div>
+            </a>
+            <a href="Chapter-146.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 146</div>
+                <div class="opt-title">Chapter 146</div>
+            </a>
+            <a href="Chapter-145.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 145</div>
+                <div class="opt-title">Chapter 145</div>
+            </a>
+            <a href="Chapter-144.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 144</div>
+                <div class="opt-title">Chapter 144</div>
+            </a>
+            <a href="Chapter-143.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 143</div>
+                <div class="opt-title">Chapter 143</div>
+            </a>
+            <a href="Chapter-142.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 142</div>
+                <div class="opt-title">Chapter 142</div>
+            </a>
+            <a href="Chapter-141.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 141</div>
+                <div class="opt-title">Chapter 141</div>
+            </a>
+            <a href="Chapter-140.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 140</div>
+                <div class="opt-title">Chapter 140</div>
+            </a>
+            <a href="Chapter-139.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 139</div>
+                <div class="opt-title">Chapter 139</div>
+            </a>
+            <a href="Chapter-138.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 138</div>
+                <div class="opt-title">Chapter 138</div>
+            </a>
+            <a href="Chapter-137.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 137</div>
+                <div class="opt-title">Chapter 137</div>
+            </a>
+            <a href="Chapter-136.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 136</div>
+                <div class="opt-title">Chapter 136</div>
+            </a>
+            <a href="Chapter-135.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 135</div>
+                <div class="opt-title">Chapter 135</div>
+            </a>
+            <a href="Chapter-134.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 134</div>
+                <div class="opt-title">Chapter 134</div>
+            </a>
+            <a href="Chapter-133.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 133</div>
+                <div class="opt-title">Chapter 133</div>
+            </a>
+            <a href="Chapter-132.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 132</div>
+                <div class="opt-title">Chapter 132</div>
+            </a>
+            <a href="Chapter-131.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 131</div>
+                <div class="opt-title">Chapter 131</div>
+            </a>
+            <a href="Chapter-130.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 130</div>
+                <div class="opt-title">Chapter 130</div>
+            </a>
+            <a href="Chapter-129.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 129</div>
+                <div class="opt-title">Chapter 129</div>
+            </a>
+            <a href="Chapter-128.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 128</div>
+                <div class="opt-title">Chapter 128</div>
+            </a>
+            <a href="Chapter-127.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 127</div>
+                <div class="opt-title">Chapter 127</div>
+            </a>
+            <a href="Chapter-126.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 126</div>
+                <div class="opt-title">Chapter 126</div>
+            </a>
+            <a href="Chapter-125.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 125</div>
+                <div class="opt-title">Chapter 125</div>
+            </a>
+            <a href="Chapter-124-Kumanomi.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 124</div>
+                <div class="opt-title">Chapter 124 Kumanomi</div>
+            </a>
+            <a href="Chapter-123.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 123</div>
+                <div class="opt-title">Chapter 123</div>
+            </a>
+            <a href="Chapter-122-Bad-Feeling.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 122</div>
+                <div class="opt-title">Chapter 122 Bad Feeling</div>
+            </a>
+            <a href="Chapter-121.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 121</div>
+                <div class="opt-title">Chapter 121</div>
+            </a>
+            <a href="Chapter-120.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 120</div>
+                <div class="opt-title">Chapter 120</div>
+            </a>
+            <a href="Chapter-119.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 119</div>
+                <div class="opt-title">Chapter 119</div>
+            </a>
+            <a href="Chapter-118-Strength.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 118</div>
+                <div class="opt-title">Chapter 118 Strength</div>
+            </a>
+            <a href="Chapter-117.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 117</div>
+                <div class="opt-title">Chapter 117</div>
+            </a>
+            <a href="Chapter-116.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 116</div>
+                <div class="opt-title">Chapter 116</div>
+            </a>
+            <a href="Chapter-115.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 115</div>
+                <div class="opt-title">Chapter 115</div>
+            </a>
+            <a href="Chapter-114.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 114</div>
+                <div class="opt-title">Chapter 114</div>
+            </a>
+            <a href="Chapter-113.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 113</div>
+                <div class="opt-title">Chapter 113</div>
+            </a>
+            <a href="Chapter-112.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 112</div>
+                <div class="opt-title">Chapter 112</div>
+            </a>
+            <a href="Chapter-111.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 111</div>
+                <div class="opt-title">Chapter 111</div>
+            </a>
+            <a href="Chapter-110-Mission.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 110</div>
+                <div class="opt-title">Chapter 110 Mission</div>
+            </a>
+            <a href="Chapter-109.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 109</div>
+                <div class="opt-title">Chapter 109</div>
+            </a>
+            <a href="Chapter-108.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 108</div>
+                <div class="opt-title">Chapter 108</div>
+            </a>
+            <a href="Chapter-107.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 107</div>
+                <div class="opt-title">Chapter 107</div>
+            </a>
+            <a href="Chapter-106-Reason.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 106</div>
+                <div class="opt-title">Chapter 106 Reason</div>
+            </a>
+            <a href="Chapter-105.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 105</div>
+                <div class="opt-title">Chapter 105</div>
+            </a>
+            <a href="Chapter-104.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 104</div>
+                <div class="opt-title">Chapter 104</div>
+            </a>
+            <a href="Chapter-103.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 103</div>
+                <div class="opt-title">Chapter 103</div>
+            </a>
+            <a href="Chapter-102-Final-Curtain.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 102</div>
+                <div class="opt-title">Chapter 102 Final Curtain</div>
+            </a>
+            <a href="Chapter-101.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 101</div>
+                <div class="opt-title">Chapter 101</div>
+            </a>
+            <a href="Chapter-100.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 100</div>
+                <div class="opt-title">Chapter 100</div>
+            </a>
+            <a href="Chapter-99-That-Day.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 99</div>
+                <div class="opt-title">Chapter 99 That Day</div>
+            </a>
+            <a href="Chapter-98.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 98</div>
+                <div class="opt-title">Chapter 98</div>
+            </a>
+            <a href="Chapter-97-One-Blow.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 97</div>
+                <div class="opt-title">Chapter 97 One Blow</div>
+            </a>
+            <a href="Chapter-96-Healthy.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 96</div>
+                <div class="opt-title">Chapter 96 Healthy</div>
+            </a>
+            <a href="Chapter-95-Amane.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 95</div>
+                <div class="opt-title">Chapter 95 Amane</div>
+            </a>
+            <a href="Chapter-94-Twisted.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 94</div>
+                <div class="opt-title">Chapter 94 Twisted</div>
+            </a>
+            <a href="Chapter-93-Rapport.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 93</div>
+                <div class="opt-title">Chapter 93 Rapport</div>
+            </a>
+            <a href="Chapter-92-Deal.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 92</div>
+                <div class="opt-title">Chapter 92 Deal</div>
+            </a>
+            <a href="Chapter-91-Kanaguri-Vs.-Sakamoto.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 91</div>
+                <div class="opt-title">Chapter 91 Kanaguri Vs. Sakamoto</div>
+            </a>
+            <a href="Chapter-90.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 90</div>
+                <div class="opt-title">Chapter 90</div>
+            </a>
+            <a href="Chapter-89-Sensei.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 89</div>
+                <div class="opt-title">Chapter 89 Sensei</div>
+            </a>
+            <a href="Chapter-88-Clap.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 88</div>
+                <div class="opt-title">Chapter 88 Clap</div>
+            </a>
+            <a href="Chapter-87-Database.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 87</div>
+                <div class="opt-title">Chapter 87 Database</div>
+            </a>
+            <a href="Chapter-86-Third-Rate-Style.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 86</div>
+                <div class="opt-title">Chapter 86 Third Rate Style</div>
+            </a>
+            <a href="Chapter-85-Nightmare.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 85</div>
+                <div class="opt-title">Chapter 85 Nightmare</div>
+            </a>
+            <a href="Chapter-84-What-a-Nice-Smell.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 84</div>
+                <div class="opt-title">Chapter 84 What a Nice Smell</div>
+            </a>
+            <a href="Chapter-83-Genius-Style.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 83</div>
+                <div class="opt-title">Chapter 83 Genius Style</div>
+            </a>
+            <a href="Chapter-82-Aikido-Love.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 82</div>
+                <div class="opt-title">Chapter 82 Aikido Love</div>
+            </a>
+            <a href="Chapter-81-Test.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 81</div>
+                <div class="opt-title">Chapter 81 Test</div>
+            </a>
+            <a href="Chapter-80-Reunion.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 80</div>
+                <div class="opt-title">Chapter 80 Reunion</div>
+            </a>
+            <a href="Chapter-79-Invisible-Intent-to-Kill.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 79</div>
+                <div class="opt-title">Chapter 79 Invisible Intent to Kill</div>
+            </a>
+            <a href="Chapter-78-Banished.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 78</div>
+                <div class="opt-title">Chapter 78 Banished</div>
+            </a>
+            <a href="Chapter-77-K-I-L-L-I-N-G.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 77</div>
+                <div class="opt-title">Chapter 77 K I L L I N G</div>
+            </a>
+            <a href="Chapter-76-Each-One's-Mission.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 76</div>
+                <div class="opt-title">Chapter 76 Each One's Mission</div>
+            </a>
+            <a href="Chapter-75-Damn-Telepath.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 75</div>
+                <div class="opt-title">Chapter 75 Damn Telepath</div>
+            </a>
+            <a href="Chapter-74-Undercover.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 74</div>
+                <div class="opt-title">Chapter 74 Undercover</div>
+            </a>
+            <a href="Chapter-73-Killer-Lotto-Scratch.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 73</div>
+                <div class="opt-title">Chapter 73 Killer Lotto Scratch</div>
+            </a>
+            <a href="Chapter-72-So-Long.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 72</div>
+                <div class="opt-title">Chapter 72 So Long</div>
+            </a>
+            <a href="Chapter-71-Hard-Mode.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 71</div>
+                <div class="opt-title">Chapter 71 Hard Mode</div>
+            </a>
+            <a href="Chapter-70-Sounds-vs.-Gaku.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 70</div>
+                <div class="opt-title">Chapter 70 Sounds vs. Gaku</div>
+            </a>
+            <a href="Chapter-69-Kaji.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 69</div>
+                <div class="opt-title">Chapter 69 Kaji</div>
+            </a>
+            <a href="Chapter-68-Fwollow-Me.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 68</div>
+                <div class="opt-title">Chapter 68 Fwollow Me</div>
+            </a>
+            <a href="Chapter-67-Remote-Work.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 67</div>
+                <div class="opt-title">Chapter 67 Remote Work</div>
+            </a>
+            <a href="Chapter-66-Lag.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 66</div>
+                <div class="opt-title">Chapter 66 Lag</div>
+            </a>
+            <a href="Chapter-65-Mutual-Fans.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 65</div>
+                <div class="opt-title">Chapter 65 Mutual Fans</div>
+            </a>
+            <a href="Chapter-64-Path.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 64</div>
+                <div class="opt-title">Chapter 64 Path</div>
+            </a>
+            <a href="Chapter-63-Survival.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 63</div>
+                <div class="opt-title">Chapter 63 Survival</div>
+            </a>
+            <a href="Chapter-62-Exam,-Stage-Three.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 62</div>
+                <div class="opt-title">Chapter 62 Exam, Stage Three</div>
+            </a>
+            <a href="Chapter-61-Pretty-Decent.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 61</div>
+                <div class="opt-title">Chapter 61 Pretty Decent</div>
+            </a>
+            <a href="Chapter-60-Kanaguri.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 60</div>
+                <div class="opt-title">Chapter 60 Kanaguri</div>
+            </a>
+            <a href="Chapter-59-Cut.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 59</div>
+                <div class="opt-title">Chapter 59 Cut</div>
+            </a>
+            <a href="Chapter-58-Newbies.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 58</div>
+                <div class="opt-title">Chapter 58 Newbies</div>
+            </a>
+            <a href="Chapter-57-Have-a-nice-flight.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 57</div>
+                <div class="opt-title">Chapter 57 Have a nice flight</div>
+            </a>
+            <a href="Chapter-56-JCC.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 56</div>
+                <div class="opt-title">Chapter 56 JCC</div>
+            </a>
+            <a href="Chapter-55-Break.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 55</div>
+                <div class="opt-title">Chapter 55 Break</div>
+            </a>
+            <a href="Chapter-54-I-Got-This.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 54</div>
+                <div class="opt-title">Chapter 54 I Got This</div>
+            </a>
+            <a href="Chapter-53-No-Way.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 53</div>
+                <div class="opt-title">Chapter 53 No Way</div>
+            </a>
+            <a href="Chapter-52-Slice-Slice-Dance.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 52</div>
+                <div class="opt-title">Chapter 52 Slice Slice Dance</div>
+            </a>
+            <a href="Chapter-51-Parade.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 51</div>
+                <div class="opt-title">Chapter 51 Parade</div>
+            </a>
+            <a href="Chapter-50-Bicycle.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 50</div>
+                <div class="opt-title">Chapter 50 Bicycle</div>
+            </a>
+            <a href="Chapter-49-Round-and-Round-the-Tower.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 49</div>
+                <div class="opt-title">Chapter 49 Round and Round the Tower</div>
+            </a>
+            <a href="Chapter-48-The-Heart-Thread.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 48</div>
+                <div class="opt-title">Chapter 48 The Heart Thread</div>
+            </a>
+            <a href="Chapter-47-Going-Up.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 47</div>
+                <div class="opt-title">Chapter 47 Going Up</div>
+            </a>
+            <a href="Chapter-46-Ninitsy-the-Astral.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 46</div>
+                <div class="opt-title">Chapter 46 Ninitsy the Astral</div>
+            </a>
+            <a href="Chapter-45-Strong-Assault.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 45</div>
+                <div class="opt-title">Chapter 45 Strong Assault</div>
+            </a>
+            <a href="Chapter-44-Every-Which-Way.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 44</div>
+                <div class="opt-title">Chapter 44 Every Which Way</div>
+            </a>
+            <a href="Chapter-43-I-Love-You.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 43</div>
+                <div class="opt-title">Chapter 43 I Love You</div>
+            </a>
+            <a href="Chapter-42-Just-Desserts.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 42</div>
+                <div class="opt-title">Chapter 42 Just Desserts</div>
+            </a>
+            <a href="Chapter-41-How-to-Live.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 41</div>
+                <div class="opt-title">Chapter 41 How to Live</div>
+            </a>
+            <a href="Chapter-40-Overload.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 40</div>
+                <div class="opt-title">Chapter 40 Overload</div>
+            </a>
+            <a href="Chapter-39-Encounter.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 39</div>
+                <div class="opt-title">Chapter 39 Encounter</div>
+            </a>
+            <a href="Chapter-38-No-Brakes.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 38</div>
+                <div class="opt-title">Chapter 38 No Brakes</div>
+            </a>
+            <a href="Chapter-37-Death-Row-Prisoner.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 37</div>
+                <div class="opt-title">Chapter 37 Death Row Prisoner</div>
+            </a>
+            <a href="Chapter-36-Wutang,-Part-3.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 36</div>
+                <div class="opt-title">Chapter 36 Wutang, Part 3</div>
+            </a>
+            <a href="Chapter-35-Wutang,-Part-2.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 35</div>
+                <div class="opt-title">Chapter 35 Wutang, Part 2</div>
+            </a>
+            <a href="Chapter-34-Wutang.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 34</div>
+                <div class="opt-title">Chapter 34 Wutang</div>
+            </a>
+            <a href="Chapter-33-Surprise.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 33</div>
+                <div class="opt-title">Chapter 33 Surprise</div>
+            </a>
+            <a href="Chapter-32-Bathhouse-Mode.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 32</div>
+                <div class="opt-title">Chapter 32 Bathhouse Mode</div>
+            </a>
+            <a href="Chapter-31-See.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 31</div>
+                <div class="opt-title">Chapter 31 See</div>
+            </a>
+            <a href="Chapter-30-Quiet-on-the-Train.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 30</div>
+                <div class="opt-title">Chapter 30 Quiet on the Train</div>
+            </a>
+            <a href="Chapter-29-All-Aboard.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 29</div>
+                <div class="opt-title">Chapter 29 All Aboard</div>
+            </a>
+            <a href="Chapter-28-Top-Notch.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 28</div>
+                <div class="opt-title">Chapter 28 Top Notch</div>
+            </a>
+            <a href="Chapter-27.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 27</div>
+                <div class="opt-title">Chapter 27</div>
+            </a>
+            <a href="Chapter-26.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 26</div>
+                <div class="opt-title">Chapter 26</div>
+            </a>
+            <a href="Chapter-25.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 25</div>
+                <div class="opt-title">Chapter 25</div>
+            </a>
+            <a href="Chapter-24.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 24</div>
+                <div class="opt-title">Chapter 24</div>
+            </a>
+            <a href="Chapter-23.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 23</div>
+                <div class="opt-title">Chapter 23</div>
+            </a>
+            <a href="Chapter-22.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 22</div>
+                <div class="opt-title">Chapter 22</div>
+            </a>
+            <a href="Chapter-21.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 21</div>
+                <div class="opt-title">Chapter 21</div>
+            </a>
+            <a href="Chapter-20.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 20</div>
+                <div class="opt-title">Chapter 20</div>
+            </a>
+            <a href="Chapter-19.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 19</div>
+                <div class="opt-title">Chapter 19</div>
+            </a>
+            <a href="Chapter-18.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 18</div>
+                <div class="opt-title">Chapter 18</div>
+            </a>
+            <a href="Chapter-17.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 17</div>
+                <div class="opt-title">Chapter 17</div>
+            </a>
+            <a href="Chapter-16.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 16</div>
+                <div class="opt-title">Chapter 16</div>
+            </a>
+            <a href="Chapter-15.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 15</div>
+                <div class="opt-title">Chapter 15</div>
+            </a>
+            <a href="Chapter-14.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 14</div>
+                <div class="opt-title">Chapter 14</div>
+            </a>
+            <a href="Chapter-13.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 13</div>
+                <div class="opt-title">Chapter 13</div>
+            </a>
+            <a href="Chapter-12.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 12</div>
+                <div class="opt-title">Chapter 12</div>
+            </a>
+            <a href="Chapter-11.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 11</div>
+                <div class="opt-title">Chapter 11</div>
+            </a>
+            <a href="Chapter-10.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 10</div>
+                <div class="opt-title">Chapter 10</div>
+            </a>
+            <a href="Chapter-9.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 9</div>
+                <div class="opt-title">Chapter 9</div>
+            </a>
+            <a href="Chapter-8.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 8</div>
+                <div class="opt-title">Chapter 8</div>
+            </a>
+            <a href="Chapter-7.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 7</div>
+                <div class="opt-title">Chapter 7</div>
+            </a>
+            <a href="Chapter-6.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 6</div>
+                <div class="opt-title">Chapter 6</div>
+            </a>
+            <a href="Chapter-5.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 5</div>
+                <div class="opt-title">Chapter 5</div>
+            </a>
+            <a href="Chapter-4.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 4</div>
+                <div class="opt-title">Chapter 4</div>
+            </a>
+            <a href="Chapter-3.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 3</div>
+                <div class="opt-title">Chapter 3</div>
+            </a>
+            <a href="Chapter-2.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 2</div>
+                <div class="opt-title">Chapter 2</div>
+            </a>
+            <a href="Chapter-1.html" class="dropdown-option ">
+                <div class="opt-id">MISSION 1</div>
+                <div class="opt-title">Chapter 1</div>
+            </a>
+            </div>
+        </div>
+        
+        <a href="Chapter-176.html" class="nav-btn" style="background: var(--primary); color: #000; padding: 0.5rem 1rem;">→</a>
+    </div>
+
+    <script>
+        const cursor = document.getElementById('custom-cursor');
+        const outline = document.getElementById('custom-cursor-outline');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            anime({ targets: outline, left: e.clientX, top: e.clientY, duration: 400, easing: 'easeOutExpo' });
+        });
+
+        const interactables = document.querySelectorAll('a, button, .dropdown-trigger, .cta-nav');
+        interactables.forEach(el => {
+            el.addEventListener('mouseenter', () => outline.classList.add('cursor-hover'));
+            el.addEventListener('mouseleave', () => {
+                outline.classList.remove('cursor-hover');
+                if (el.classList.contains('magnetic')) {
+                    anime({
+                        targets: el,
+                        translateX: 0,
+                        translateY: 0,
+                        duration: 800,
+                        easing: 'easeOutElastic(1, .6)'
+                    });
+                }
+            });
+
+            if (el.classList.contains('magnetic')) {
+                el.addEventListener('mousemove', (e) => {
+                    const rect = el.getBoundingClientRect();
+                    const x = e.clientX - rect.left - rect.width / 2;
+                    const y = e.clientY - rect.top - rect.height / 2;
+                    
+                    anime({
+                        targets: el,
+                        translateX: x * 0.3,
+                        translateY: y * 0.3,
+                        duration: 100,
+                        easing: 'easeOutQuad'
+                    });
+                });
+            }
+        });
+
+        window.addEventListener('scroll', () => {
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+            
+            const nav = document.getElementById('mainNav');
+            if (window.scrollY > 50) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        });
+
+        // Dropdown Logic
+        const trigger = document.getElementById('chDropdown');
+        const content = document.getElementById('chDropdownContent');
+        
+        trigger.onclick = (e) => {
+            e.stopPropagation();
+            content.classList.toggle('active');
+        };
+        
+        document.onclick = () => content.classList.remove('active');
+
+        // Entrance
+        window.addEventListener('load', () => {
+            anime.timeline({ easing: 'easeOutExpo' })
+                .add({
+                    targets: '.hero-title .letter',
+                    translateY: [40, 0],
+                    opacity: [0, 1],
+                    delay: anime.stagger(30)
+                })
+                .add({
+                    targets: '.reader-nav-compact',
+                    translateY: [40, 0],
+                    opacity: [0, 1]
+                }, '-=800');
+        });
+    </script>
+</body>
+</html>

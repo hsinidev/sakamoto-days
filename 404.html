@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Mission File Not Found | Sakamoto Days</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <style>
+        body { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: #020202; overflow: hidden; }
+        .error-code { font-family: "Bangers", cursive; font-size: clamp(10rem, 30vw, 25rem); color: var(--primary); line-height: 1; opacity: 0.05; position: absolute; z-index: 0; user-select: none; }
+        .error-content { position: relative; z-index: 10; }
+        .error-title { font-family: "Bangers", cursive; font-size: clamp(3rem, 8vw, 6rem); color: #fff; margin-bottom: 1rem; text-transform: uppercase; }
+    </style>
+</head>
+<body class="scanline">
+    <div id="custom-cursor"></div>
+    <div id="custom-cursor-outline"></div>
+    <div class="error-code">404</div>
+    <div class="error-content">
+        <div style="font-size: 0.8rem; letter-spacing: 0.5em; color: var(--primary); margin-bottom: 1rem; font-weight: 800;">MISSION ABORTED</div>
+        <h1 class="error-title">TARGET LOST</h1>
+        <p style="color: var(--text-muted); margin-bottom: 3rem; max-width: 400px; margin-inline: auto;">The mission coordinate has been retired.</p>
+        <a href="/" class="nav-btn">Return to Archive</a>
+    </div>
+    <script>
+        const cursor = document.getElementById("custom-cursor");
+        const outline = document.getElementById("custom-cursor-outline");
+        document.addEventListener("mousemove", (e) => {
+            cursor.style.left = e.clientX + "px"; cursor.style.top = e.clientY + "px";
+            setTimeout(() => { outline.style.left = (e.clientX - 10) + "px"; outline.style.top = (e.clientY - 10) + "px"; }, 50);
+        });
+        window.addEventListener("load", () => {
+            anime({ targets: ".error-content", opacity: [0, 1], translateY: [30, 0], duration: 1500 });
+            anime({ targets: ".error-code", scale: [0.8, 1.2], opacity: [0, 0.05], duration: 5000, loop: true, direction: "alternate" });
+        });
+    </script>
+</body>
+</html>

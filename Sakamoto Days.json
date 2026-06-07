@@ -1,0 +1,46 @@
+{
+  "project_variables": {
+    "manga_name": "Sakamoto Days",
+    "website_name": "Sakamoto days manga Online",
+    "domain": "https://sakamotodays.org/",
+    "google_tag_id": "G-ZP02TGLGPM",
+    "chapter_count": 170
+  },
+  "visual_identity": {
+    "primary_color": "#ed1c24", 
+    "secondary_color": "#ffcb05",
+    "accent_color": "#1a1a1a",
+    "dark_bg": "#050505",
+    "font_heading": "'Archivo Black', sans-serif",
+    "font_body": "'Plus Jakarta Sans', sans-serif",
+    "ui_style": "Retouch Modern / Assassin Terminal (Convenience Store Aesthetic)"
+  },
+  "antigravity_skill_orchestration": {
+    "active_skills": [
+      "antigravity-design-expert",
+      "tailwind-patterns",
+      "seo-programmatic",
+      "performance-optimizer",
+      "ui-ux-pro-max"
+    ],
+    "directives": "Utilize 'antigravity-design-expert' to create a 'Store Aisle' grid layout. Use 'tailwind-patterns' for bold, impact-heavy headings. Direct 'performance-optimizer' to handle the high-speed motion lines in Suzuki's art without blurring."
+  },
+  "generation_prompts": {
+    "landing_page_ui": "Build a 'Sakamoto Grocery' UI with Tailwind CSS 4.1. 1. HERO: A cinematic 'freeze-frame' action shot of Sakamoto in his apron holding a suppressed weapon. Use a 'Store CCTV' scanline overlay. Title 'SAKAMOTO DAYS' in massive red 'Archivo' font with a 90-degree slant. 2. CHAPTER GRID: Design cards styled as 'Product Labels' or 'Store Receipts'. Each card features a barcode, a price tag ($0.00 - Free), and the chapter thumbnail. 3. NAV: A yellow-and-black striped header (like hazard tape) with 'Inventory' (Chapters), 'Staff' (Characters), and 'Store Policy' (About) links.",
+    "seo_geo_strategy": "Activate 'seo-geo' and 'ai-seo' to target Japan, US, and France. Generate localized meta-tags for 'Read Sakamoto Days Manga Online' and 'The Order Assassin Rankings'. Inject 'ComicSeries' JSON-LD to secure the 'Read Now' button in Google Search results.",
+    "technical_files": "Generate a robots.txt (allow all), a dynamic sitemap.xml for 170+ chapters, and a .htaccess for extreme caching of action-heavy panels."
+  },
+  "technical_architectures": {
+    "image_workflow": "Convert all Yuto Suzuki assets to AVIF via 'python-performance-optimization'. Implement 'Motion-Aware' lazy loading so high-speed combat panels remain crisp during fast scrolls.",
+    "tag_integration": "Inject G-ZP02TGLGPM tracking. Set up 'Kill-Count' events (tracking clicks on major fight chapters) to analyze which 'Order' members are most popular with readers."
+  },
+  "design_aesthetics": {
+    "feel": "Kinetic, Retro-Pop, Deadly, Clean",
+    "interactive_elements": [
+      "CCTV Flicker: Rare 0.1s 'Video Interference' glitch on the hero image.",
+      "Price Tag Hover: Chapter cards reveal a 'Sold Out' or 'On Sale' badge when hovered.",
+      "Bullet Hole Cursor: A custom cursor that leaves a temporary 'impact' spark on click.",
+      "Checkout Transition: Page transitions mimic a barcode scanner 'beep' and red laser flash."
+    ]
+  }
+}
